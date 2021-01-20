@@ -26,8 +26,14 @@
 // Write a JavaScript function that checks whether a passed string is palindrome or not? 
 
 //Write a JavaScript function that generates all combinations of a string.
-function alphabate(str) {
-    return str.split("").sort().join("");
+//Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
 
+function LeapYear(year) {
+    if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+        console.log("This year is leapYear ")
+    } else {
+        console.log("This year is not  leapYear ")
+    }
 }
-console.log(alphabate("dklasksksj"))
+
+LeapYear(2012);
