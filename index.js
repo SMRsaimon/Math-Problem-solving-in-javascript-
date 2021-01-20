@@ -1,15 +1,21 @@
-function primeNumber(n) {
+// check Prime Number or not Program in JavaScript 
 
-    for (let i = 2; i < n; i++) {
-        if (n % i == 0) {
-            return n + " Is   not a Prime Number ";
-        }
+// Start Program system 1  
+// function facturial(n) {
+//     let fact = 1;
+//     for (let i = 1; i <= n; i++) {
+//         fact = fact * i;
+//     }
+//     return fact;
+// }
 
-    }
-    return n + "  is a Prime Number "
+// const result = facturial(4);
+// console.log(result);
+function reverseFunction(n) {
 
+    n = n + ""
+    return n.split("").reverse().join("");
 
 }
 
-const result = primeNumber(11);
-console.log(result);
+console.log(reverseFunction(123456))
