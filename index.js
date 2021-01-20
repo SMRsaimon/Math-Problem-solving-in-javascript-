@@ -20,16 +20,14 @@
 
 // console.log(reverseFunction(123456))
 
-function reverseFunction(str) {
-    let reverse = "";
-    for (let i = 0; i < str.length; i++) {
-        const element = str[i];
-        reverse = element + reverse;
+// function name(params) {
 
-    }
-    return reverse;
+// }
+// Write a JavaScript function that checks whether a passed string is palindrome or not? 
+
+//Write a JavaScript function that generates all combinations of a string.
+function alphabate(str) {
+    return str.split("").sort().join("");
+
 }
-
-const result = reverseFunction('this is the dog and I want to reverse this dog to cat')
-
-console.log(result)
+console.log(alphabate("dklasksksj"))
