@@ -26,14 +26,5 @@
 // Write a JavaScript function that checks whether a passed string is palindrome or not? 
 
 //Write a JavaScript function that generates all combinations of a string.
-//Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
-
-function LeapYear(year) {
-    if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-        console.log("This year is leapYear ")
-    } else {
-        console.log("This year is not  leapYear ")
-    }
-}
-
-LeapYear(2012);
+//Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.amin?
+//find biggest number;
