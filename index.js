@@ -28,3 +28,5 @@
 //Write a JavaScript function that generates all combinations of a string.
 //Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.amin?
 //find biggest number;
+
+//This example is to generate an array with 40 random elements, with random values from 0 to 39
